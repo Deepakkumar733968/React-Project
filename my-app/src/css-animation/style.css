@@ -1,0 +1,142 @@
+.web-main-section {
+  background-color: cadetblue;
+  color: white;
+  /**/
+  /* scale: 0 1;
+  animation: scroll-animation linear;
+  transform-origin: right;
+  animation-timeline: scroll(); */
+}
+
+@keyframes scroll-animation {
+  to {
+    scale: 1 1;
+  }
+}
+
+.animation-heading {
+  text-align: center;
+  animation: colorchangeheader 4s infinite;
+}
+
+/*1.this class name only add position in first image  */
+.add-image-position {
+  position: relative;
+}
+
+/* 2.chield section */
+.text-position {
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  z-index: 3;
+  text-align: center;
+}
+
+.text-position h1 {
+  font-size: 60px;
+}
+
+.text-position p {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.animal-name-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.animal-name-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 16px;
+  overflow-x: scroll;
+  background-color: grey;
+}
+
+.animal-name-main h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+.animal-name-main p {
+  padding: 8px 28px;
+  /* border: 1px solid blue; */
+  border-radius: 8px;
+  background-color: coral;
+}
+
+@keyframes colorchangeheader {
+  from {
+    color: green;
+  }
+  to {
+    color: blue;
+  }
+}
+
+.image-size {
+  width: 100%;
+  height: 100%;
+}
+
+.img-collection {
+  background-color: lightcoral;
+  animation: changebackground 3s infinite;
+  width: fit-content;
+  margin-left: 16px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@keyframes changebackground {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: blueviolet;
+  }
+  50% {
+    background-color: aqua;
+  }
+  75% {
+    background-color: brown;
+  }
+  100% {
+    background-color: darkorange;
+  }
+}
+
+.connent-whapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+}
+
+.image-header {
+  font-size: 30px;
+}
+
+.connent-whapper > img {
+  scale: 0.8;
+  opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry 200px;
+}
+
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
