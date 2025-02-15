@@ -1,3 +1,54 @@
-.red {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-main {
+  background-color: rgb(2, 18, 20);
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+}
+
+.footer-list {
+  margin-bottom: 3px;
+}
+
+.footer-link {
+  color: #d1d3d4;
+  display: inline-block;
+  text-transform: capitalize;
+  vertical-align: super;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.33;
+
+  &:hover {
+    color: white;
+    /* add the link after remove in this line:*/
+    cursor: pointer;
+  }
+}
+
+.last-footer-list {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
 }
