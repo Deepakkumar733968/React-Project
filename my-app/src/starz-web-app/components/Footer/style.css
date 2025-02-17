@@ -5,10 +5,17 @@
 
 .footer-main {
   background-color: rgb(2, 18, 20);
+  display: flex;
+}
+
+.first-section,
+.second-section {
+  display: flex;
 }
 
 a {
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer-heading {
