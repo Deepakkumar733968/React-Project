@@ -5,12 +5,33 @@
 
 .footer-main {
   background-color: rgb(2, 18, 20);
+  /* display: flex;
+  padding: 55px 15px 50px; */
+  /* margin: auto;
+  max-width: none;
+  width: 80%; */
+}
+
+.footer-section-main {
   display: flex;
+  padding: 55px 15px 50px;
+  margin: auto;
+  max-width: none;
+  width: 80%;
 }
 
 .first-section,
 .second-section {
   display: flex;
+  padding: 0 15px;
+}
+
+.second-section div {
+  margin-right: 20px;
+}
+
+.first-section {
+  flex-direction: column;
 }
 
 a {
@@ -26,6 +47,14 @@ a {
   letter-spacing: 0.75px;
   line-height: 1.67;
   margin-bottom: 8px;
+}
+
+.first-section-header {
+  display: flex;
+}
+
+.first-section-header div {
+  margin-right: 10px;
 }
 
 .footer-list {
@@ -44,8 +73,6 @@ a {
 
   &:hover {
     color: white;
-    /* add the link after remove in this line:*/
-    cursor: pointer;
   }
 }
 

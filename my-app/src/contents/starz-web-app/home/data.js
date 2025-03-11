@@ -27,11 +27,11 @@ export const secondList = [
     link: "#",
   },
   {
-    text: "Expend4bles",
+    text: "Borderlands",
     link: "#",
   },
   {
-    text: "The Oath",
+    text: "Expend4bles",
     link: "#",
   },
 ];
@@ -50,7 +50,7 @@ export const thirdList = [
     link: "#",
   },
   {
-    text: "Three Women",
+    text: "Power Book III: Raising Kanan",
     link: "#",
   },
 ];
