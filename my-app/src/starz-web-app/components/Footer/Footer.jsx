@@ -16,7 +16,7 @@ export const Footer = () => {
       </a>
     </li>
   );
-  const renderIcons = (item, index) => <div key={index}></div>;
+  // const renderIcons = (item, index) => <div key={index}></div>;
   return (
     <footer className="footer-main">
       <div className="footer-section-main">
