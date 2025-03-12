@@ -1,6 +1,6 @@
 import "./App.css";
-import WorkingFile from "./normal-working-file/react-working-file";
-// import { CrudJsonPlaceHolder } from "./crud-operaction-json-placeholder";
+// import WorkingFile from "./normal-working-file/react-working-file";
+import { CrudJsonPlaceHolder } from "./crud-operaction-json-placeholder";
 // import TailWindProject from "./tailwind-css-project";
 // import CrudOperation from "./crud-operaction-restapi-mockapi";
 // import FireBaseCrud from "./firebase-crud-operaction/index.jsx";
@@ -14,8 +14,8 @@ function App() {
       {/* <CSSAnimation /> */}
       {/* <TailWindProject /> */}
       {/* <StarzWebApp /> */}
-      {/* <CrudJsonPlaceHolder /> */}
-      <WorkingFile />
+      <CrudJsonPlaceHolder />
+      {/* <WorkingFile /> */}
     </>
   );
 }
