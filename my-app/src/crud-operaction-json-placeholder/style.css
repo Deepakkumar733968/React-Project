@@ -2,14 +2,26 @@ h1 {
   color: blue;
 }
 
-/* .main-table-header {
-}
-
-.table-modifier {
-} */
 .edit-button {
   color: blue;
 }
 .delete-button {
   color: red;
+}
+
+.input-header {
+  display: flex;
+  gap: 20px;
+}
+
+.input-header button {
+  padding: 10px 20px;
+  background-color: #008000;
+}
+
+input {
+  color: black;
+  font-size: 18px;
+  padding: 6px;
+  border: 2px solid gray;
 }
