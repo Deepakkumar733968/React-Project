@@ -1,4 +1,8 @@
 import "./style.css";
+import { FaFacebookF } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { FaYoutube } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 import {
   firstList,
   secondList,
@@ -16,18 +20,17 @@ export const Footer = () => {
       </a>
     </li>
   );
-  // const renderIcons = (item, index) => <div key={index}></div>;
+
   return (
     <footer className="footer-main">
       <div className="footer-section-main">
-        {/* first section */}
         <div className="first-section">
           <h3 className="footer-heading">Browse STARZ</h3>
           <div className="first-section-header">
             <div>
               <ul>
                 {firstList.map(renderFooterList)}
-                {/* last footer list */}
+
                 <li className="footer-list">
                   <a
                     href="https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_link_test"
@@ -36,13 +39,12 @@ export const Footer = () => {
                     More Originals...
                   </a>
                 </li>
-                {/*  */}
               </ul>
             </div>
             <div>
               <ul>
                 {secondList.map(renderFooterList)}
-                {/* last footer list */}
+
                 <li className="footer-list">
                   <a
                     href="https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_link_test"
@@ -51,13 +53,12 @@ export const Footer = () => {
                     More Movies...
                   </a>
                 </li>
-                {/*  */}
               </ul>
             </div>
             <div>
               <ul>
                 {thirdList.map(renderFooterList)}
-                {/* last footer list */}
+
                 <li className="footer-list">
                   <a
                     href="https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_link_test"
@@ -66,13 +67,11 @@ export const Footer = () => {
                     More Series...
                   </a>
                 </li>
-                {/*  */}
               </ul>
             </div>
           </div>
         </div>
 
-        {/* second section */}
         <div className="second-section">
           <div>
             <h3 className="footer-heading">Get Started</h3>
@@ -85,7 +84,24 @@ export const Footer = () => {
           <div>
             <h3 className="footer-heading">Company</h3>
             <ul>{sixthList.map(renderFooterList)}</ul>
+            <div className="icons-align">
+              <FaFacebookF className="icon" />
+              <FiInstagram className="icon" />
+              <FaYoutube className="icon" />
+              <FaTiktok className="icon" />
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="line">
+        <div className="hr-line"></div>
+        <div className="line-main-section">
+          <img
+            className="web-logo"
+            src="https://www.starz.com/assets/images/icons/starz-logo-glint.svg"
+            alt="web-logo"
+          />
+          <p>© 2025 STARZ</p>
         </div>
       </div>
     </footer>

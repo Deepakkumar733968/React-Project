@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Averta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* section {
+  background-color: rgb(10, 35, 40);
+} */
+
+.bold-main {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 120, 139, 0.3),
+      rgba(2, 18, 20, 0.7)
+    ),
+    url(https://starz.imgix.net/BuyStarz/v3/generic/footer-desktop-092424.jpg?&auto=compress,format);
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  /* margin-top: 60px; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #d1d3d4;
+  margin-bottom: 30px;
+}
+
+.text-sec {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

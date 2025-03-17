@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Averta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banner-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 60px; */
+  padding-top: 60px;
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 60px;
+}
+
+.banner-header-two {
+  font-size: 2.25rem;
+  line-height: 44px;
+  letter-spacing: 2.25px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.banner-header-four {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #d1d3d4;
+  margin-bottom: 30px;
+}
+
+.banner-description {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #d1d3d4;
+  margin-bottom: 30px;
+}
+
+.banner-image-main {
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.banner-image-white {
+  color: white;
+}
+
+.android-img {
+  width: 76px;
+  height: 20px;
+  margin-right: 30px;
+  object-fit: contain;
+}
+
+.apple-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 28px;
+}
+
+.cast-img {
+  width: 40px;
+  height: 40px;
+}

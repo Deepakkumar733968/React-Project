@@ -1,0 +1,16 @@
+.image-card-main {
+  cursor: pointer;
+  position: relative;
+}
+
+.position-align {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+}
+
+.card-image-size {
+  width: 100%;
+  height: 100%;
+}

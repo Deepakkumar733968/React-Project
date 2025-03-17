@@ -1,0 +1,14 @@
+.coming-soon-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coming-image-header {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.4;
+}
